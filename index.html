@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Oryvex</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <link href="/image/icon.png" rel="icon"/>
+</head>
+
+<body>
+  <a href='/help' style='font-size: 14px;padding:5px;text-decoration: none;float:right;background-color: #212224;color: white;font-family: arial;'><i class='fa fa-info-circle'></i>&nbsp;Help</a>
+  <center>
+    <div class='sitename'>
+      <img class='ssimg' src='image/logo.png'>
+    </div>
+    <br>
+    <div class='searchbar'>
+      <input class='searchbox' placeholder='Search here...' id='searchterm'>
+      <button class='sbBtn' onclick='route("google", document.getElementById("searchterm"))'><i class='fa fa-google'></i></button>
+    </div>
+<div class="options">
+  <div class="row">
+    <button class="option-btn" onclick='route("se", document.getElementById("searchterm"))'><i class='fa fa-search'></i></button>
+    <button class="option-btn" onclick='route("wb", document.getElementById("searchterm"))'><i class="uil uil-globe"></i></button>
+    <button class="option-btn" onclick='route("ed", document.getElementById("searchterm"))'><i class='fa fa-book'></i></button>
+  </div>
+  <br>
+  <div class="row">
+    <button class="option-btn" onclick='route("sc", document.getElementById("searchterm"))'><i class='fa fa-shopping-cart'></i></button>
+    <button class="option-btn" onclick='route("fd", document.getElementById("searchterm"))'><i class='fa fa-cutlery'></i></button>
+    <button class="option-btn" onclick='route("et", document.getElementById("searchterm"))'><i class='fa fa-film'></i></button>
+  </div>
+  <br>
+  <div class="row">
+    <button class="option-btn" onclick='route("sm")'><i class='fa fa-comments-o'></i></button>
+    <button class="option-btn" onclick='route("tv")'><i class='fa fa-bus'></i></button>
+    <button class="option-btn" onclick='route("bk")'><i class='fa fa-university'></i></button>
+  </div>
+</div>
+
+
+  </center>
+
+  
+  <script src="script/script.js"></script>
+
+  
+</body>
+
+</html>

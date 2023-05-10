@@ -111,14 +111,14 @@ body{
   border-radius: 3px;
 }
 .ton{
-  font-family: inter;
+  font-family: arial;
   font-weight: 600;
   font-size: 32px;
   color: white;
 }
 .cfx{
   color: #2A98D6;
-  font-family: inter;
+  font-family: arial;
   font-weight: light;
   word-break: break-all;
 }

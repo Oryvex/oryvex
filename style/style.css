@@ -165,6 +165,7 @@ table{
   background-color: #212224;
   color: white;
   font-family: arial;
+  border-radius: 3px;
 }
 .ryte{
   display:block;

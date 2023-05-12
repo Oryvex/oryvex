@@ -1,23 +1,32 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Oryvex</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   
-  <link href="style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+
   <link href="/image/icon.png" rel="icon"/>
 </head>
 
 <body>
-  <a href='/help' style='font-size: 14px;padding:5px;text-decoration: none;float:right;background-color: #212224;color: white;font-family: arial;'><i class='fa fa-info-circle'></i>&nbsp;Help</a>
+  <a href='/help' class='mackl' style='float: right!important;position: auto;border-radius: 3px;'><i class='fa fa-info-circle'></i>&nbsp;Help</a>
   <center>
     <div class='sitename'>
-      <img class='ssimg' src='image/logo.png'>
+      <img id='tim' class='ssimg' src='image/logo.png'>
+        <script>
+  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+if (darkThemeMq.matches) {
+  document.getElementById("tim").src = "/image/logo-dark.png";
+} else {
+    document.getElementById("tim").src = "/image/logo-light.png";
+}
+</script> 
     </div>
     <br>
     <div class='searchbar'>

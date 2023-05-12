@@ -75,6 +75,12 @@ const searchlist = {
       YouTube: "https://www.youtube.com/results?search_query=",
       AppleTV: "https://tv.apple.com/search?term=",
       Spotify: "https://open.spotify.com/search/",
+      MxPlayer: "https://www.mxplayer.in/?search=true&q=",
+      Zee5: "https://www.zee5.com/search?q=",
+      ErosNow: "https://erosnow.com/search?q=",
+      ViMoviesAndTv: "https://moviesandtv.myvi.in/Searchresults?query=",
+      AirtelXtreme: "https://www.airtelxstream.in/search/spiderman?q="
+      
     },
     fa: "fa fa-film"
   },

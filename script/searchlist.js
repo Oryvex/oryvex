@@ -74,13 +74,15 @@ const searchlist = {
       PrimeVideo: "https://www.primevideo.com/search/ref=atv_nb_sug?ie=UTF8&phrase=",
       YouTube: "https://www.youtube.com/results?search_query=",
       AppleTV: "https://tv.apple.com/search?term=",
-      Spotify: "https://open.spotify.com/search/",
       MxPlayer: "https://www.mxplayer.in/?search=true&q=",
       Zee5: "https://www.zee5.com/search?q=",
       ErosNow: "https://erosnow.com/search?q=",
       ViMoviesAndTv: "https://moviesandtv.myvi.in/Searchresults?query=",
-      AirtelXtreme: "https://www.airtelxstream.in/search/spiderman?q="
-      
+      AirtelXtreme: "https://www.airtelxstream.in/search/spiderman?q=",
+      JioSaavan : "https://www.jiosaavn.com/search/song/",
+      Spotify: "https://open.spotify.com/search/",
+      Gaana: "https://gaana.com/search/",
+      AppleMusic: "https://music.apple.com/us/search?term=",
     },
     fa: "fa fa-film"
   },

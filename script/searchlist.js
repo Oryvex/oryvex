@@ -71,6 +71,7 @@ const searchlist = {
   et: {
     desc: "Entertainment",
     items: {
+      Hotstar: "https://www.hotstar.com/in/explore?search_query=",
       PrimeVideo: "https://www.primevideo.com/search/ref=atv_nb_sug?ie=UTF8&phrase=",
       YouTube: "https://www.youtube.com/results?search_query=",
       AppleTV: "https://tv.apple.com/search?term=",
@@ -103,6 +104,8 @@ const searchlist = {
   tv: {
     desc: "Travel & Booking",
     items: {
+      OlaCabs: "https://www.olacabs.com",
+      Uber: "https://www.uber.com",
       Expedia: "https://www.expedia.com/",
       Booking: "https://www.booking.com/",
       Airbnb: "https://www.airbnb.com/",

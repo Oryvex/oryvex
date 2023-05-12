@@ -68,9 +68,8 @@ document.getElementById("serx").addEventListener("input", function() {
     var s = document.createElement("a");
     s.innerText = `Search for '${eme}' here...`;
     s.id = 'veyo_res';
-    s.className = "ssr";
+    s.className = "ssr tsr";
     s.href = `/filter/?f=${ffff}&q=${eme}`;
-    s.style="background-color: #212224";
     document.getElementById("dets").appendChild(s);
 
   }else{

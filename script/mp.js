@@ -20,11 +20,12 @@ var alll = [];
 
 const current = searchlist[filter]['items'];
 Object.entries(current).forEach(([key, value]) => {
+  var FulURL = value + query;
   $("#dets").append(`
 <tr class='mex'>
         <td class='blok'>
           <label class='ton'>${key}</label><br>
-          <a href='${value}${query}' class='cfx'>${value}${query}</a><br><br>
+          <a href='${FulURL}' class='cfx'>${CVRTURL(FulURL)}</a><br><br>
           <a href='${value}${query}' class='ssr' target="_blank"><i class='fa fa-external-link'></i>Visit</a>
           <a href='whatsapp://send?text=${value}${query}' class='ssr'><i class='fa fa-whatsapp'></i>WhatsApp</a>
           
@@ -104,4 +105,27 @@ function ropen(){
   }
   var filt = urlParams.get("f");
   window.location.assign(`/filter/?f=${filt}&q=${sme}`);
+}
+
+function CVRTURL(url) {
+    var domain = url.replace(/(^\w+:|^)\/\/(www\.)?/, '');
+  
+  // Split the path into segments
+  var pathSegments = domain.split('/');
+  
+  // Remove empty segments
+  pathSegments = pathSegments.filter(function(segment) {
+    return segment !== '';
+  });
+  
+  // Build the breadcrumb trail
+  var breadcrumb = '';
+  for (var i = 0; i < pathSegments.length; i++) {
+    breadcrumb += pathSegments[i];
+    if (i < pathSegments.length - 1) {
+      breadcrumb += ' › ';
+    }
+  }
+  
+  return breadcrumb;
 }

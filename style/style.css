@@ -86,7 +86,6 @@ body{
 }
 .cfx{
   color: #2A98D6;
-
 }
 .blok{
   background-color: #212224;
@@ -165,7 +164,7 @@ body{
   color: #575252;
 }
 .cfx{
-  color: #2A98D6;
+  color: #0674b3;
  
 }
 .blok{
@@ -330,6 +329,8 @@ html {
   font-family: inter;
   font-weight: light;
   word-break: break-all;
+  font-size: 14px;
+  text-decoration: none;
 }
 .blok{
   width: 576px;
